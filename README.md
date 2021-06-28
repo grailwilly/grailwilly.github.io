@@ -5,7 +5,7 @@ This is to showcase my work and skills.
 I'll be using HTML, CSS, Bootstrap and JavaScript to complete the Portfolio.
 
 ## Heading
-I'll use a pen name "Joi Willi". I changed my second name and last name to "y" to "i" to remind me that within "I" will start something amazing.
+I'll use a pen name "Joi Willi". I changed the last letter of my second name and last name to "y" to "i" to remind me that within "I" will start something amazing.
 
 ## Blog
 I'll be sharing my journey getting on tech. 
