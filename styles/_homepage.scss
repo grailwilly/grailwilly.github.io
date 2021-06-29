@@ -2,7 +2,7 @@
 @import 'media';
 
 .hero-banner {
-  height: 90vh;
+  height: 100vh;
 }
 
 .hero-content {
@@ -29,6 +29,33 @@
   }
 }
 
+.section {
+  margin-bottom: 50px;
+  h2 {
+    font-family: $section-heading-text;
+    font-size: 5em;
+  }
+}
+
+.life-lists {
+  padding-top: 20px;
+  column-count: 2;
+  li {
+    padding: 10px;
+    list-style: none;
+    h5 {
+      font-family: $ul-heading-text;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1em;
+    }
+    p {
+      text-align: justify;
+      font-size: 15px;
+    }
+  }
+}
+
 @media screen and (max-width: $galaxy) {
   .hero-content {
     .profile-image {
@@ -37,5 +64,9 @@
     .hero-text {
       padding: 20px;
     }
+  }
+
+  .life-lists {
+    column-count: 1;
   }
 }

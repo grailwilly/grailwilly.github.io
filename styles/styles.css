@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Reenie+Beanie&display=swap");
 .hero-banner {
-  height: 90vh;
+  height: 100vh;
 }
 
 .hero-content {
@@ -33,12 +35,48 @@
   text-align: justify;
 }
 
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 5em;
+}
+
+.life-lists {
+  padding-top: 20px;
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.life-lists li {
+  padding: 10px;
+  list-style: none;
+}
+
+.life-lists li h5 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.life-lists li p {
+  text-align: justify;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 540px) {
   .hero-content .profile-image {
     display: none;
   }
   .hero-content .hero-text {
     padding: 20px;
+  }
+  .life-lists {
+    -webkit-column-count: 1;
+            column-count: 1;
   }
 }
 /*# sourceMappingURL=styles.css.map */
