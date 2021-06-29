@@ -1,0 +1,41 @@
+@import 'fontStyle';
+@import 'media';
+
+.hero-banner {
+  height: 90vh;
+}
+
+.hero-content {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.hero-text {
+  padding: 80px;
+  h1 {
+    font-family: $hero-text-heading;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: $galaxy) {
+  .hero-content {
+    .profile-image {
+      display: none;
+    }
+    .hero-text {
+      padding: 20px;
+    }
+  }
+}
