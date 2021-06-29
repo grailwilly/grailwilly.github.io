@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Reenie+Beanie&display=swap");
 .hero-banner {
   height: 100vh;
 }
@@ -78,5 +81,27 @@
     -webkit-column-count: 1;
             column-count: 1;
   }
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.navbar-brand:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.navbar-nav a {
+  color: #000;
+}
+
+.navbar-nav a:hover {
+  color: white;
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-family: "Major Mono Display", monospace;
 }
 /*# sourceMappingURL=styles.css.map */
