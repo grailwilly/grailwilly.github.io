@@ -4,6 +4,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Reenie+Beanie&display=swap");
+nav {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  color: #000;
+  font-family: "Major Mono Display", monospace;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.navbar-nav a {
+  color: #000;
+}
+
+.navbar-nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .hero-banner {
   height: 100vh;
 }
@@ -83,25 +105,27 @@
   }
 }
 
-.navbar-brand {
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 30px;
+}
+
+footer ul li a {
   color: #000;
 }
 
-.navbar-brand:hover {
-  color: black;
+footer ul li a:hover {
+  color: #000;
   text-decoration: underline;
-}
-
-.navbar-nav a {
-  color: #000;
-}
-
-.navbar-nav a:hover {
-  color: white;
-  background-color: #000;
-}
-
-.navbar-brand {
-  font-family: "Major Mono Display", monospace;
 }
 /*# sourceMappingURL=styles.css.map */

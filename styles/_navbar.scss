@@ -1,12 +1,16 @@
 @import 'fontStyle';
 
+nav {
+  background-color: #fff;
+}
+
 .navbar-brand {
   color: #000;
+  font-family: $hero-text-heading;
 }
 
 .navbar-brand:hover {
   color: black;
-  text-decoration: underline;
 }
 
 .navbar-nav {
@@ -16,10 +20,6 @@
 
   a:hover {
     color: white;
-    background-color: #000;
+    text-decoration: underline;
   }
-}
-
-.navbar-brand {
-  font-family: $hero-text-heading;
 }
