@@ -13,9 +13,8 @@ class Navbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ml-auto">
             <a href="./pages/blog.html" class="nav-item nav-link">Blog</a>
-            <a href="#" class="nav-item nav-link">Portfolio</a>
-            <a href="#" class="nav-item nav-link">Service</a>
-            <a href="#" class="nav-item nav-link">Contact</a>
+            <a href="./pages/portfolio.html" class="nav-item nav-link">Portfolio</a>
+            <a href="./pages/contact.html" class="nav-item nav-link">Contact</a>
           </div>
         </div>
       </nav>
