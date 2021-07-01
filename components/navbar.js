@@ -12,9 +12,9 @@ class Navbar extends HTMLElement {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ml-auto">
-            <a href="./pages/blog.html" class="nav-item nav-link">Blog</a>
-            <a href="./pages/portfolio.html" class="nav-item nav-link">Portfolio</a>
-            <a href="./pages/contact.html" class="nav-item nav-link">Contact</a>
+            // <a href="./blog.html" class="nav-item nav-link">Blog</a>
+            // <a href="./portfolio.html" class="nav-item nav-link">Portfolio</a>
+            // <a href="./contact.html" class="nav-item nav-link">Contact</a>
           </div>
         </div>
       </nav>
