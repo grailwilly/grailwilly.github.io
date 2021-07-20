@@ -69,7 +69,7 @@ class Homepage extends HTMLElement {
               </li>
               <li>
                 <h5>Coding</h5>
-                <p>I love to code if I want to bring my idea to life. But never finished a project.</p>
+                <p>Transforming an idea into reality through coding.</p>
               </li>
               <li>
                 <h5>Agriculture</h5>
