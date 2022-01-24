@@ -6,7 +6,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <a href="/" class="navbar-brand">Joi Willi</a>
+        <a href="/" class="navbar-brand">Grail Willy</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>

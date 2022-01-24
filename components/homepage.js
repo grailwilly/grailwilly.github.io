@@ -12,7 +12,10 @@ class Homepage extends HTMLElement {
           </div>
           <div class="hero-text">
             <h1>Keep Moving Forward!</h1>
-            <p>I'm using a pen name "Joi Willi". I replaced the last letter of my second and last name, from "y" to "i". The "I" will be a reminder that within "I" will start something amazing.</p>
+            <h3>Why it's good to do hard things</h3>
+            <p>Strangely, life gets harder when you try to make it easy. Exercising might be hard, but never moving makes life harder. Uncomfortable
+            conversations are hard, but avoiding every conflict is harder. Mastering your craft is hard, but having no skills is harder. Easy has a cost.
+            <i>- James Clear</i></p>
           </div>
         </div>
       </div>
@@ -34,6 +37,10 @@ class Homepage extends HTMLElement {
                   <h5>E-commerce</h5>
                   <p>I'm learning liquid code for shopify theme development.</p>
                 </li>
+                <li>
+                  <h5>Blockchain</h5>
+                  <p>Web3, NFT, Cryptocurrency, etc..</p>
+                </li>
               </ul>
           </div>
           <div class="section work-history">
@@ -48,10 +55,15 @@ class Homepage extends HTMLElement {
                 <h5>Junior Web Developer</h5>
                 <p>For almost 2 years, my roles are to maintain a website by updating contents or changing/adding functions, learning new technology or programming language, and contribute by sharing ideas and testing final projects</p>
               </li>
+              <br/><br/>
               <li>
                 <h5>Investment Data Analysts</h5>
-                <p>In just 6 months, It didn't work well for me. I got a three poor performance evaluation. This was one of the job which I really liked but at the same time hated. Working here made me realized that I lacked on being detail oriented, thinking creatively how to solve problems, communication, and working as a team.
-                  A lot of mistakes but its either you LEARN, EARN, or QUIT. But still, I'm grateful to have experience and work with smart people in here.</p>
+                <p>In just 6 months, It didn't work well for me. I got a three poor performance evaluation. Working here made me realized that I lacked on being detail oriented, thinking creatively how to solve problems, communication, and working as a team.
+                  A lot of mistakes but its either you LEARN, EARN, or QUIT. But still, I'm grateful to experience and work with smart people in here.</p>
+              </li>
+              <li>
+                <h5>Full time trader</h5>
+                <p>If I'm not coding, I'm trading!</p>
               </li>
             </ul>
           </div>
