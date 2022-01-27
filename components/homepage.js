@@ -55,7 +55,11 @@ class Homepage extends HTMLElement {
                 <h5>Junior Web Developer</h5>
                 <p>For almost 2 years, my roles are to maintain a website by updating contents or changing/adding functions, learning new technology or programming language, and contribute by sharing ideas and testing final projects</p>
               </li>
-              <br/><br/>
+              <li>
+                <h5>Farmer</h5>
+                <p>Looking forward to weekend, to check and plant potatoes or tomatoes in my hometown. Love this line from a film Sulthan "...science has advanced but agriculture has left behind..."</p>
+              </li>
+              <br/>
               <li>
                 <h5>Investment Data Analysts</h5>
                 <p>In just 6 months, It didn't work well for me. I got a three poor performance evaluation. Working here made me realized that I lacked on being detail oriented, thinking creatively how to solve problems, communication, and working as a team.
