@@ -129,9 +129,39 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
+.portfolio-container {
+  height: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .html-css-port {
   width: 100%;
-  margin: 50px;
+}
+
+.row {
+  margin: 0;
+}
+
+.card-heading, .card-sub-header {
+  width: 100%;
+  text-align: center;
+}
+
+.card-heading {
+  margin-top: 50px;
 }
 
 .card {
@@ -150,20 +180,15 @@ footer ul li a:hover {
   cursor: pointer;
 }
 
-.card .card-body h2 {
-  color: var(--color-two);
-}
-
 .card img:hover {
   opacity: 0.6;
 }
 
-.card-p {
-  color: var(--color-three);
+.card-p i {
+  margin-right: 8px;
 }
 
-.card-p i {
-  color: var(--color-two);
-  margin-right: 8px;
+.card-img-top {
+  border-bottom: 1px solid #000;
 }
 /*# sourceMappingURL=styles.css.map */

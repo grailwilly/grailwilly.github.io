@@ -1,6 +1,27 @@
+.portfolio-container {
+  height: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .html-css-port {
   width: 100%;
-  margin: 50px;
+}
+
+.row {
+  margin: 0;
+}
+
+.card-heading, .card-sub-header {
+  width: 100%;
+  text-align: center;
+}
+
+.card-heading {
+  margin-top: 50px;
 }
 
 .card {
@@ -16,19 +37,14 @@
   cursor: pointer;
 }
 
-.card .card-body h2 {
-  color: var(--color-two);
-}
-
 .card img:hover {
 opacity: 0.6;
 }
 
-.card-p {
-  color: var(--color-three);
+.card-p i {
+  margin-right: 8px;
 }
 
-.card-p i {
-  color: var(--color-two);
-  margin-right: 8px;
+.card-img-top {
+  border-bottom: 1px solid #000;
 }
